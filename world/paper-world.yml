@@ -1,0 +1,102 @@
+# This is a world configuration file for Paper.
+# This file may start empty but can be filled with settings to override ones in the config/paper-world-defaults.yml
+# 
+# World: world (minecraft:overworld)
+
+_version: 31
+
+delay-chunk-unloads-by`: 10s
+max-auto-save-chunks-per-tick: 8
+entity-per-chunk-save-limit:
+    area_effect_cloud: 8
+    arrow: 16
+    breeze_wind_charge: 8
+    dragon_fireball: 3
+    egg: 8
+    ender_pearl: 8
+    experience_bottle: 3
+    experience_orb: 16
+    eye_of_ender: 8
+    fireball: 8
+    firework_rocket: 8
+    llama_spit: 3
+    potion: 8
+    shulker_bullet: 8
+    small_fireball: 8
+    snowball: 8
+    spectral_arrow: 16
+    trident: 16
+    wind_charge: 8
+    wither_skull: 4
+despawn-ranges:
+     ambient:
+        hard: 72
+        soft: 30
+      axolotls:
+        hard: 72
+        soft: 30
+      creature:
+        hard: 72
+        soft: 30
+      misc:
+        hard: 72
+        soft: 30
+      monster:
+        hard: 72
+        soft: 30
+      underground_water_creature:
+        hard: 72
+        soft: 30
+      water_ambient:
+        hard: 72
+        soft: 30
+      water_creature:
+        hard: 72
+        soft: 30
+per-player-mob-spawns: true
+max-entity-collisions: 2
+update-pathfinding-on-block-update: false
+armor-stands.tick: false
+alt-item-despawn-rate:
+ enabled: true
+      items:
+        cobblestone: 300
+        netherrack: 300
+        sand: 300
+        red_sand: 300
+        gravel: 300
+        dirt: 300
+        short_grass: 300
+        pumpkin: 300
+        melon_slice: 300
+        kelp: 300
+        bamboo: 300
+        sugar_cane: 300
+        twisting_vines: 300
+        weeping_vines: 300
+        oak_leaves: 300
+        spruce_leaves: 300
+        birch_leaves: 300
+        jungle_leaves: 300
+        acacia_leaves: 300
+        dark_oak_leaves: 300
+        mangrove_leaves: 300
+        cherry_leaves: 300
+        cactus: 300
+        diorite: 300
+        granite: 300
+        andesite: 300
+        scaffolding: 600
+redstone-implementation: ALTERNATE_CURRENT
+hopper.disable-move-event: false
+hopper.ignore-occluding-blocks: false
+tick-rates.mob-spawner: 2
+optimize-explosions: true
+treasure-maps.enabled: true
+treasure-maps.find-already-discovered:
+      loot-tables: true
+      villager-trade: true
+tick-rates.grass-spread: 4
+tick-rates.container-update: 1
+non-player-arrow-despawn-rate: 20
+anti-xray.enabled: true

@@ -1,0 +1,60 @@
+--------------[ dzekas_ was punished for Improbable (Type B) ]--------------
+
+Date & Time:
+ - Date: 03-25-2025
+ - Time: 20:36:37
+
+Location:
+ - World: world
+ - X: 281.7478459421095
+ - Y: 88.3507696993204
+ - Z: 212.6958533205922
+
+Information:
+ - UUID: 4c7f6728-5d56-4aff-859a-06b09f3309c3
+ - Keep Alive Ping: 0
+ - Transaction Ping: 27
+ - Server TPS: 20
+ - Sensitivity: 99
+ - Gamemode: SURVIVAL
+ - Client Brand: Fabric
+ - Vehicle: null
+ - Version: 1.21.4
+ - Last Damage: 8.0 seconds ago
+
+Total Violations: 37
+ - Combat Violations: 0
+ - Movement Violations: 36
+ - Player Violations: 1
+
+Misc Information:
+ - Since Teleport Ticks: 160
+ - Since Riptide Ticks: 253
+ - Flying Delay: 49
+ - Since Velocity Ticks: 160
+ - Since Firework Ticks: 253
+ - Ticks Existed: 60
+ - Since Vehicle Ticks: 153
+ - Since Liquid Ticks: 153
+ - Queued Transactions: 3
+ - Joined: 4 seconds ago
+ - Holding Item (Main Hand): ItemStack{AIR x 0}
+ - Holding Item (Off Hand): ItemStack{SHIELD x 1, SHIELD_META:{meta-type=SHIELD, Damage=57}}
+
+All Violations:
+ - Flight (Type A) [VL: 9] (Invalid Y-Axis movement.)
+ - Flight (Type B) [VL: 5] (Invalid Y-Axis movement.)
+ - Flight (Type E) [VL: 5] (Invalid Y-Axis movement.)
+ - Flight (Type F) [VL: 8] (Invalid Y-Axis movement.)
+ - Speed (Type A) [VL: 3] (Invalid friction.)
+ - Speed (Type C) [VL: 3] (Moving too quickly in the air.)
+ - Speed (Type E) [VL: 6] (Invalid friction.)
+ - Strafe (Type A) [VL: 11] (Moving incorrectly in the air.)
+ - Improbable (Type B) [VL: 1] (Too many combined movement violations.)
+
+Blocks Nearby: [AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR, AIR]
+Entities Nearby: []
+Potion Effects: []
+---------------------------------------------------------------------------
+
+

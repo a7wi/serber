@@ -1,0 +1,69 @@
+
+# This is where you can configure where the heads selector (/heads)
+version: 3.5
+sections:
+  alphabet:
+    texture: HP#wood_a
+    display-name: '&8[&6Alphabet&8]'
+    permission: headsplus.section.alphabet
+    enabled: true
+  animals:
+    texture: HP#elephant
+    display-name: '&8[&aAnimals&8]'
+    permission: headsplus.section.animals
+    enabled: true
+  decoration:
+    texture: HP#paper_lantern
+    display-name: '&8[&eDecoration&8]'
+    permission: headsplus.section.decoration
+    enabled: true
+  food_and_drink:
+    texture: HP#pepsi
+    display-name: '&8[&6Food &7and &9Drink&8]'
+    permission: headsplus.section.food_and_drink
+    enabled: true
+  logos:
+    texture: HP#youtube
+    display-name: '&8[&cLogos&8]'
+    permission: headsplus.section.logos
+    enabled: true
+  plants:
+    texture: HP#white_flower_bush
+    display-name: '&8[&aPlants&8]'
+    permission: headsplus.section.plants
+    enabled: true
+  colors:
+    texture: HP#rainbow
+    display-name: '&8[&4C&6o&el&ao&br&ds&8]'
+    permission: headsplus.section.colors
+    enabled: true
+  emotes:
+    texture: HP#e_wink
+    display-name: '&8[&eEmotes&8]'
+    permission: headsplus.section.emotes
+    enabled: true
+  blocks:
+    texture: HP#oak_log
+    display-name: '&8[&9Blocks&8]'
+    permission: headsplus.section.blocks
+    enabled: true
+  players:
+    texture: HP#players_1
+    display-name: '&8[&6Players&8]'
+    permission: headsplus.section.players
+    enabled: true
+  mobs:
+    texture: HP#evoker
+    display-name: '&8[&cMobs&8]'
+    permission: headsplus.section.mobs
+    enabled: true
+  humans:
+    texture: HP#villager_plains
+    display-name: '&8[&6Humans&8]'
+    permission: headsplus.section.humans
+    enabled: true
+  gems:
+    texture: HP#amethyst
+    display-name: '&8[&bGems&8]'
+    permission: headsplus.section.gems
+    enabled: true

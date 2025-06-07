@@ -1,0 +1,19 @@
+masks:
+  chicken:
+    when-wearing: []
+    effects:
+    - SLOW_FALLING
+    type: potion
+    idle: HP#chicken
+  iron_golem:
+    when-wearing: []
+    effects:
+    - INCREASE_DAMAGE:2
+    type: potion
+    idle: HP#iron_golem
+  ocelot:
+    when-wearing: []
+    effects:
+    - SPEED
+    type: potion
+    idle: HP#ocelot

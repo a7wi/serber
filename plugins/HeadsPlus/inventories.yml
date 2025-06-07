@@ -1,0 +1,147 @@
+icons:
+  'null':
+    material: null
+    display-name: null
+    lore: null
+  challenge:
+    material: null
+    display-name: '{challenge-name}'
+    lore:
+    - '{challenge-lore}'
+    - '{msg_inventory.icon.challenge.reward}'
+    - '{msg_inventory.icon.challenge.xp}'
+    - '{msg_inventory.icon.challenge.progress}'
+    - '{completed}'
+    - '{pinned}'
+  challenges-section:
+    material: null
+    display-name: '{section-name}'
+    lore:
+    - '{section-lore}'
+    - '{msg_inventory.icon.challenge.count}'
+  head:
+    material: null
+    display-name: '{head-name}'
+    lore:
+    - '{msg_inventory.icon.head.price}'
+    - '{msg_inventory.icon.head.favourite}'
+  headsection:
+    material: null
+    display-name: '{head-name}'
+    lore:
+    - '{msg_inventory.icon.head.count}'
+  sellable-head:
+    material: null
+    display-name: '{head-name}'
+    lore: []
+  glass:
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    display-name: '&c'
+    lore: []
+  close:
+    material: BARRIER
+    display-name: '{msg_inventory.icon.close}'
+    lore: []
+  air:
+    material: AIR
+    display-name: ''
+    lore: []
+  menu:
+    material: NETHER_STAR
+    display-name: '{msg_inventory.icon.menu}'
+    lore: []
+  favourites:
+    material: DIAMOND
+    display-name: '{msg_inventory.icon.favourites}'
+    lore: []
+  stats:
+    material: PAPER
+    display-name: '{msg_inventory.icon.stats.icon}'
+    lore:
+    - '{msg_inventory.icon.stats.total-heads} {heads}'
+    - '{msg_inventory.icon.stats.total-pages} {pages}'
+    - '{msg_inventory.icon.stats.total-sections} {sections}'
+    - '{msg_inventory.icon.stats.current-balance} {balance}'
+    - '{msg_inventory.icon.stats.current-section} {section}'
+  search:
+    material: NAME_TAG
+    display-name: '{msg_inventory.icon.search}'
+    lore: []
+  pinned-challenges:
+    material: DIAMOND
+    display-name: '{msg_inventory.icon.pinned-challenges}'
+    lore: []
+  next:
+    material: ARROW
+    data-value: 0
+    display-name: '{msg_inventory.icon.next}'
+    lore: []
+  next_2:
+    material: ARROW
+    data-value: 0
+    display-name: '{msg_inventory.icon.next-2}'
+    lore: []
+  next_3:
+    material: ARROW
+    data-value: 0
+    display-name: '{msg_inventory.icon.next-3}'
+    lore: []
+  back:
+    material: ARROW
+    data-value: 0
+    display-name: '{msg_inventory.icon.back}'
+    lore: []
+  back_2:
+    material: ARROW
+    data-value: 0
+    display-name: '{msg_inventory.icon.back-2}'
+    lore: []
+  back_3:
+    material: ARROW
+    data-value: 0
+    display-name: '{msg_inventory.icon.back-3}'
+    lore: []
+  start:
+    material: ARROW
+    data-value: 0
+    display-name: '{msg_inventory.icon.start}'
+    lore: []
+  last:
+    material: ARROW
+    data-value: 0
+    display-name: '{msg_inventory.icon.last}'
+    lore: []
+inventories:
+  challenges-menu:
+    title: 'HeadsPlus Challenges: {page}/{pages}'
+    icons: PGGGGGGGGGAAAAAAAGGACACACAGGAACACAAGGAAAAAAAGGGGBXNGGG
+    size: 54
+  challenge-section:
+    title: 'HeadsPlus Challenges: {page}/{pages}'
+    icons: PGGGGGGGGGCCCCCCCGGCCCCCCCGGCCCCCCCGGCCCCCCCG<{[BMN]}>
+    size: 54
+  favourites:
+    title: 'HeadsPlus Heads: {page}/{pages}'
+    icons: GGGGSGGGKGCCCCCCCGGCCCCCCCGGCCCCCCCGGCCCCCCCG<{[BMN]}>
+    size: 54
+  headmenu:
+    title: 'HeadsPlus Heads: {page}/{pages}'
+    icons: FGGGSGGGKGCCCCCCCGGCCCCCCCGGCCCCCCCGGCCCCCCCG<{[BXN]}>
+    size: 54
+  headsection:
+    title: 'HeadsPlus Heads: {page}/{pages}'
+    icons: FGGGSGGGKGCCCCCCCGGCCCCCCCGGCCCCCCCGGCCCCCCCG<{[BMN]}>
+    size: 54
+  sellhead-category:
+    title: 'HeadsPlus Sellhead: {page}/{pages}'
+    icons: GGGGGGGGGGCCCCCCCGGCCCCCCCGGCCCCCCCGGCCCCCCCG<{[BMN]}>
+    size: 54
+  sellheadmenu:
+    title: HeadsPlus Sellhead Menu
+    icons: GGGGGGGGGGCCCCCCCGGCCCCCCCGGCCCCCCCGGCCCCCCCG<{[BXN]}>
+    size: 54
+  pinned-challenges:
+    title: 'HeadsPlus Challenges: Pinned'
+    icons: PGGGGGGGGGCCCCCCCGGCCCCCCCGGCCCCCCCGGCCCCCCCG<{[BMN]}>
+    size: 54
+version: 0.1

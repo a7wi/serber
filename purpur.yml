@@ -1,0 +1,8 @@
+zombie.aggressive-towards-villager-when-lagging: true
+entities-can-use-portals: true
+villager.lobotomize.enabled: false
+villager.search-radius:
+          acquire-poi: 16
+          nearest-bed-sensor: 16
+dolphin.disable-treasure-searching: true
+teleport-if-outside-border: true

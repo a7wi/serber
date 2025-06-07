@@ -1,0 +1,203 @@
+# HeadsPlus by Thatsmusic99 - Nederlands (Tepoloco)
+# Wijzig de versie niet! Dit wordt intern gebruikt in de plug-in om nieuwe berichten toe te voegen.
+language: Nederlands (NL)
+version: 1.7
+prefix: '&cHeadsPlus &8» &7'
+inventory:
+  icon:
+    pinned-challenges: '&8❰ &b&lVastgezette uitdagingen &8❱'
+    next: '&8❰ &a&lVolgende &8❱'
+    next-2: '&8❰ &a&lVolgende (2) &8❱'
+    next-3: '&8❰ &a&lVolgende (3) &8❱'
+    reward:
+      currency: '&7${amount}'
+      group-add: '&7Groep {group} &7(&a+&7)'
+      group-remove: '&7Groep {group} &7(&c-&7a)'
+      item-give: '&7{amount} {item}(s)'
+    challenge:
+      progress: '&7Vooruitgang &8❱ &c{heads}&7/&c{total}'
+      pinned: '&cVastgemaakt!'
+      reward: '&7Beloning &8❱ &c{reward}'
+      xp: '&7XP &8❱ &c{xp}'
+      count: '&7{challenge-count} uitdagingen'
+    close: '&8❰ &c&lSluit Menu &8❱'
+    favourites: '&8❰ &b&lFavorieten &8❱'
+    head:
+      price: '&cPrijs &8❱ &7{price}'
+      favourite: '&cFavoriete!'
+      count: '&7{head-count} hoofden'
+    menu: '&8❰ &a&lHoofd Menu &8❱'
+    start: '&8❰ &a&lEerste Page &8❱'
+    last: '&8❰ &a&lLaatste Page &8❱'
+    back: '&8❰ &a&lTerug &8❱'
+    back-2: '&8❰ &a&lTerug 2 &8❱'
+    back-3: '&8❰ &a&lTerug 3 &8❱'
+    search: '&8❰ &e&lZoek hoofd &8❱'
+    stats:
+      icon: '&8❰ &a&lStatistieken &8❱'
+      total-heads: '&aTotaal hoofden &8❱ &e'
+      total-pages: '&aTotaal Pagina''s &8❱ &e'
+      total-sections: '&aTotaal Secties &8❱ &e'
+      current-balance: '&aHuidig ​​saldo &8❱ &e'
+      current-section: '&aHuidige sectie &8❱ &e'
+textmenus:
+  profile:
+    player: Speler
+    completed-challenges: Voltooide uitdagingen
+    total-heads-dropped: Totaal aantal gedropte hoofden
+    total-heads-sold: Totaal verkochte hoofden
+    total-heads-crafted: Totaal aantal hoofden gemaakt
+    current-level: Huidig ​​level
+    xp-until-next-level: XP tot het volgende level
+  info:
+    version: Versie
+    author: Auteur
+    language: Taal
+    contributors: Bijdragers
+    spigot: Spigot link
+    discord: Discord Server
+    github: Github
+  help:
+    usage: Gebruik
+    description: Beschrijving
+    permission: Permissie
+    further-usages: Verdere toepassingen
+commands:
+  debug:
+    verbose:
+      enabled: '{header} De uitgebreide debugging ingeschakeld voor gebeurtenis &c{event}
+        &7en argumenten &c{args}&7!'
+      disabled: '{header} De uitgebreide foutopsporing uitgeschakeld!'
+  locale:
+    invalid-lang: '{header} Dat is geen geldige taal! Beschikbare talen: &c{languages}'
+    changed-locale: '{header} Goedendag! Uw taal is nu ingesteld op &cNederlands (NL)'
+    changed-locale-other: '{header} &7De taal van &c{player}&7 is nu ingesteld op
+      &c{language}&7!'
+  errors:
+    not-a-player: '{header} Je moet een speler zijn om deze opdracht / subopdracht
+      uit te voeren!'
+    cmd-fail: '{header} Kan deze opdracht niet uitvoeren!'
+    disabled: '{header} Dit command is uitgeschakeld.'
+    invalid-args: '{header} Ongeldige argumenten!'
+    invalid-input-int: '{header} U kunt in deze opdracht alleen gehele getallen gebruiken!'
+    invalid-pg-no: '{header} Ongeldig paginanummer!'
+    no-data: '{header} Er zijn geen gegevens voor deze speler!'
+    no-perm: '{header} U heeft geen toestemming om deze opdracht te gebruiken.'
+    player-offline: '{header} Die speler is offline!'
+    too-many-args: '{header} Te veel argumenten!'
+  addhead:
+    bad-texture: '{header} De door u opgegeven structuur is ongeldig. Het moet een
+      Minecraft texture URL (https://textures.minecraft.net) of een Base64-gecodeerde
+      string.'
+    cancelled: '{header} Geannuleerde hoofdcreatie.'
+    custom-head-added: '{header} Nieuw hoofd met id &c{id} &7toegevoegd!'
+    displayname: '{header} Typ de weergavenaam voor het hoofd (inclusief kleur codes).'
+    head-added: '{header} Hoofd voor &c{player} &7toegevoegd!'
+    head-adding: '{header} Textuur opzoeken om toe te voegen voor &c{player}&7...'
+    head-already-added: '{header} Hoofd voor &c{player} &7al in de database!'
+    id: '{header} Voer de ID van het hoofd in (Vb. brown_sheep, red_flower_bush)'
+    id-taken: '{header} Dat ID is al in gebruik (&c{id}&7)!'
+    price: '{header} Voer de prijs van het hoofd in (of "default" voor de standaardwaarde).'
+    section: '{header} Typ de sectie waarin het hoofd wordt geplaatst. (Beschikbare
+      secties: &c{sections}&7)'
+    texture: '{header} Typ of kopieer en plak de textuur voor het hoofd. (Dit zou
+      meerdere berichten nodig hebben, dus als je klaar bent, typ je "done"
+      in de chat en voer je in.)'
+  challenges:
+    already-complete-challenge: '{header} Je hebt die uitdaging al volbracht!'
+    cant-complete-challenge: '{header} Je kunt deze uitdaging niet voltooien!'
+    challenge-complete: '{header} &c{player} &7heeft de &c{challange} &7uitdaging
+      volbracht!'
+    challenge-completed: '&6Voltooid!'
+    reward-string: '{header} Beloning: &c{reward}\n{header} XP: &c{xp}'
+  head:
+    alpha-names: '{header} Deze opdracht behandelt alleen alfanumerieke namen!'
+    full-inv: '{header} Je inventaris is vol!'
+    head-too-long: '{header} IGN is te lang om geldig te zijn! Gebruik een IGN tussen
+      3 en 16 karakters.'
+    head-too-short: '{header} IGN is te kort om geldig te zijn! Gebruik een IGN tussen
+      3 en 16 karakters.'
+    restricted-head: '{header} Je kunt dat hoofd niet gebruiken!'
+  heads:
+    buy-success: '{header} Jij hebt een hoofd gekocht voor &c{price} &en je hebt nu
+      een saldo van &c{balance}&7!'
+    chat-input: '{header} Voer een term in waarnaar u wilt zoeken.'
+    not-enough-money: '{header} Je hebt niet genoeg geld!'
+  leaderboards:
+    no-data-lb: Er zijn nog geen scorebordgegevens geregistreerd!
+  levels:
+    level-up: '{header} &c{player} &7heeft level &c{level}&7 bereikt!'
+  profile:
+    cant-view-data: '{header} &7Je kunt je eigen gegevens niet in de console bekijken!'
+  reload:
+    reload-message: '{header} Configuratie opnieuw geladen!'
+    reloading-message: '{header} Configuratie herladen...'
+  restore:
+    restored-head: '{header} {head} hersteld!'
+    invalid-head: '{header} {head} is geen geldige ID!'
+  sellhead:
+    false-head: '{header} Dit hoofd kan niet worden verkocht'
+    false-item: '{header} Dis is geen hoofd!'
+    no-heads: '{header} Je hebt geen geldige hoofden in je inventaris om te verkopen!'
+    not-enough-heads: '{header} Jij hebt niet genoeg hoofden!'
+    sell-success: '{header} Je hebt het hoofd succesvol verkocht voor &c{price} &7en
+      je hebt nu een saldo van &c{balance}&7!'
+  tests:
+    running-tests: '{header} Testen uitvoeren... (Dit kan een tijdje duren)'
+    results: '{header} Resultaten: &c{results}'
+  xp:
+    added-xp: '{header} &c{amount} &7XP toegevoegd aan bij &c{player}&7, heeft nu
+      &c{xp}&7!'
+    current-xp: '{header} &c{player}&7''s huidige XP: &c{xp}'
+    negative-xp: '{header} Ik denk niet dat je dat wilt doen... (negatief toestaan
+      XP, ga naar config.yml> plugin> perks> xp> allow-negative, maar dit heeft
+      onvoorspelbare resultaten!)'
+    removed-xp: '{header}  &c{amount} &7XP verwijderd van &c{player}&7, heeft nu &c{xp}&7!'
+    reset-xp: '{header} Reset &c{player}&7''s XP!'
+descriptions:
+  hp:
+    complete: Voltooit een uitdaging.
+    conjure: Haalt een hoofd van een specifiek type op.
+    debug: Dump een debug-bestand.
+    help: Geeft het helpmenu weer.
+    info: Geeft informatie over plugin weer.
+    profile: Toont uw profiel voor de plugin.
+    reload: Laadt configuratiebestanden opnieuw.
+    restore: Herstelt of repareert een kop die al door de plug-in werd geleverd.
+    tests: Voert tests uit voor mob drop-rates.
+    xp: Bekijk of wijzig de XP van een speler.
+  addhead: Voegt een spelershoofd toe aan het hoofden-menu
+  head: Spawns in een hoofd.
+  heads: Geeft een selectie van hoofden weers.
+  hpc: Geeft uitdagingen weer die u kunt voltooien.
+  hplb: Geeft het scorebord van de hoofden weer.
+  myhead: Spawn in je hoofd.
+  sellhead: Verkoopt het hoofd in je hand, gebruik de nummerparameter om een specifieke
+    te verkopen nummer, entiteitsnaam om het hoofd van een bepaalde maffia te
+    verkopen, en alles om elk hoofd te verkopen.
+event:
+  block-place-denied: '{header} Je kunt geen verkoopbare koppen plaatsen!'
+  cannot-craft-heads: '{header} Je kunt geen hoofden maken!'
+  cannot-craft-heads-here: '{header} Je kunt hier geen hoofden maken!'
+  head-interact-message: '{header} Dat is het hoofd van &c{name}&7!'
+  head-mhf-interact-message: '{header} Dat is een &c{name}&7''s hoofd!'
+  head-mhf-interact-message-2: '{header} Dat is een &c{name}&7''s hoofd!'
+  lost-money: '{header} Because you got killed by &c{player}&7, you lost &c{price}&7!'
+startup:
+  faulty-theme: '{header} Er is een foutief thema geplaatst! Er worden geen themawijzigingen
+    doorgevoerd.'
+  no-vault: '{header} Vault niet gevonden! Hoofden kunnen niet worden verkocht en
+    beloningen voor uitdaginen kan niet worden toegevoegd / verwijderd in groepen.'
+  no-vault-2: '{header} Vault werd niet gevonden bij het opstarten! Kan groep niet
+    toevoegen.'
+  plugin-disabled: '{header} HeadsPlus is uitgeschakeld!'
+  plugin-enabled: '{header} HeadsPlus is ingeschakeld!'
+  plugin-fail: '{header} HeadsPlus is niet goed opgestart. Een foutenrapport is
+    gemaakt in /plugins/HeadsPlus/debug'
+update:
+  current-version: '{header} Huidige versie: &c{version}'
+  description: '{header} Beschrijving: &c{description}'
+  new-version: '{header} Nieuwe versie: &c{version}'
+  plugin-up-to-date: '{header} Plugin is up-to-date!'
+  update-found: '{header} Er is een update gevonden voor HeadsPlus! Plaats de muisaanwijzer
+    op het bericht voor meer informatie.'

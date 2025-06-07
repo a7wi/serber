@@ -1,0 +1,35 @@
+[03-25-2025] [20:36:37] dzekas_ failed Flight *(Type F)* [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=0.37499991216536444 pre=0.28909985242802133 diff=0.0859000597373431 tol=1.0E-8 tick=30 tp=151
+[03-25-2025] [20:36:37] dzekas_ failed Strafe (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] difference=0.04938461900889039 deltaXZ=0.5547221851308111
+[03-25-2025] [20:36:37] dzekas_ failed Flight (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] deltaY=0.3749999532596888 difference=0.08590003371095489 ticks=22 delay=48 tp=152
+[03-25-2025] [20:36:37] dzekas_ failed Speed *(Type E)* [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dXZ=0.591116672748599 diff=0.06031947105759605 min=1.0E-4
+[03-25-2025] [20:36:37] dzekas_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] deltaY=0.37499997791627493 difference=0.08590001809510234 ticks=32 delay=52 tp=153
+[03-25-2025] [20:36:37] dzekas_ failed Flight (Type E) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] ticks=23 acceleration=2.4656586106175382E-8 deltaY=0.37499997791627493 delay=52 tp=153
+[03-25-2025] [20:36:37] dzekas_ failed Strafe (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] difference=0.04938461901799536 deltaXZ=0.626327651218346
+[03-25-2025] [20:36:37] dzekas_ failed Flight (Type A) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] deltaY=0.37499999271022944 difference=0.085900008725602 ticks=24 delay=47 tp=154
+[03-25-2025] [20:36:37] dzekas_ failed Flight *(Type F)* [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=0.37499999271022944 pre=0.28909998398462744 diff=0.085900008725602 tol=1.0E-8 tick=33 tp=154
+[03-25-2025] [20:36:37] dzekas_ failed Speed *(Type E)* [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dXZ=0.6591796798439817 diff=0.0632215021353939 min=1.0E-4
+[03-25-2025] [20:36:37] dzekas_ failed Speed (Type C) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] speed=0.6899094636125847 max=0.36250000540167093 diff=0.3274094582109137 ticks=34 deltaY=0.3750000015865993
+[03-25-2025] [20:36:37] dzekas_ failed Strafe (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] difference=0.04938461879518427 deltaXZ=0.6899094636125847
+[03-25-2025] [20:36:37] dzekas_ failed Speed (Type A) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] difference=0.06447239516225312 ticks=35 deltaXZ=0.7182900251433009
+[03-25-2025] [20:36:37] dzekas_ failed Speed *(Type E)* [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dXZ=0.7182900251433009 diff=0.06447239648845648 min=1.0E-4
+[03-25-2025] [20:36:37] dzekas_ failed Flight (Type A) [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] deltaY=0.37500001010792516 difference=0.08589999770706541 ticks=27 delay=49 tp=157
+[03-25-2025] [20:36:37] dzekas_ failed Flight (Type B) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] deltaY=0.37500001010792516 difference=0.08589999770706541 ticks=36 delay=49 tp=157
+[03-25-2025] [20:36:37] dzekas_ failed Flight (Type E) [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] ticks=27 acceleration=3.195495423824468E-9 deltaY=0.37500001010792516 delay=49 tp=157
+[03-25-2025] [20:36:37] dzekas_ failed Flight *(Type F)* [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=0.37500001010792516 pre=0.28910001240085975 diff=0.08589999770706541 tol=1.0E-8 tick=36 tp=157
+[03-25-2025] [20:36:37] dzekas_ failed Strafe (Type A) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] difference=0.04938461774093034 deltaXZ=0.7454398953005387
+[03-25-2025] [20:36:37] dzekas_ failed Speed *(Type E)* [VL: 5] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dXZ=0.771226997023937 diff=0.06687667407671094 min=1.0E-4
+[03-25-2025] [20:36:37] dzekas_ failed Flight (Type A) [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] deltaY=0.37500001317559395 difference=0.08589999576420843 ticks=29 delay=47 tp=159
+[03-25-2025] [20:36:37] dzekas_ failed Strafe (Type A) [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] difference=0.04938461751073209 deltaXZ=0.7952372967483161
+[03-25-2025] [20:36:37] dzekas_ failed Flight *(Type F)* [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=0.37500001386581516 pre=0.2891000185387608 diff=0.08589999532705439 tol=1.0E-8 tick=39 tp=160
+[03-25-2025] [20:36:37] dzekas_ failed Speed (Type A) [VL: 3] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] difference=0.06784116573441212 ticks=39 deltaXZ=0.8175071266313079
+[03-25-2025] [20:36:37] dzekas_ failed Speed *(Type E)* [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dXZ=0.8175071266313079 diff=0.06784116706061549 min=1.0E-4
+[03-25-2025] [20:36:37] dzekas_ failed Improbable (Type B) [VL: 1] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] movementViolations=34
+[03-25-2025] [20:36:54] dzekas_ failed Flight *(Type F)* [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=-1.100000000064938E-5 pre=-0.07838922152566846 diff=0.07837822152566781 tol=1.0E-8 tick=3 tp=95
+[03-25-2025] [20:36:54] dzekas_ failed Flight *(Type F)* [VL: 4] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=-1.100000000064938E-5 pre=-0.07838922152566846 diff=0.07837822152566781 tol=1.0E-8 tick=3 tp=115
+[03-25-2025] [20:36:55] dzekas_ failed Flight *(Type F)* [VL: 6] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=-1.100000000064938E-5 pre=-0.07838922152566846 diff=0.07837822152566781 tol=1.0E-8 tick=3 tp=135
+[03-25-2025] [20:36:55] dzekas_ failed Flight *(Type F)* [VL: 8] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=1.100000000064938E-5 pre=-0.13965000271797182 diff=0.13966100271797247 tol=1.0E-8 tick=2 tp=154
+[03-25-2025] [20:36:56] dzekas_ failed Flight *(Type F)* [VL: 10] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=0.28984670022062176 pre=0.15001627021132263 diff=0.13983043000929912 tol=1.0E-8 tick=6 tp=164
+[03-25-2025] [20:36:56] dzekas_ failed Flight *(Type F)* [VL: 12] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=0.06260688724765373 pre=0.023857916302170223 diff=0.038748970945483505 tol=1.0E-8 tick=9 tp=167
+[03-25-2025] [20:36:56] dzekas_ failed Flight *(Type F)* [VL: 14] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=0.01352308764549548 pre=-0.056312291275024864 diff=0.06983537892052034 tol=1.0E-8 tick=12 tp=170
+[03-25-2025] [20:36:56] dzekas_ failed Flight (Type B) [VL: 2] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] deltaY=0.0048683115523715514 difference=0.07531673738793687 ticks=14 delay=48 tp=172
+[03-25-2025] [20:36:57] dzekas_ failed Flight *(Type F)* [VL: 16] [Ping: 0] [TPS: 20] [Version: 1.21.4] [Client: Fabric] dY=0.0 pre=-0.07044842583556532 diff=0.07044842583556532 tol=1.0E-8 tick=19 tp=177

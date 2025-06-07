@@ -1,0 +1,16 @@
+#                          #
+#  Author: Troydesante	   #
+#                          #
+
+help:
+  - '&bThese are the commands for PlayerHeads:'
+  - '&3/head help - Gives you a list with the commands.'
+  - '&3/head <player> - Gives you 1 head of a player.'
+  - '&3/head <player> <quantity> - Gives you the head of a player. Quantity has to be a number.'
+  - '&3/head <player> <quantity> <target> - Gives the player in <target> the head of the player in <player>.'
+
+#Change the plugins prefix right here
+prefix: '&b[PlayerHeads] '
+
+#Change the message when a players don't have the permission
+noperm: '&3You do not have permission to do this.'

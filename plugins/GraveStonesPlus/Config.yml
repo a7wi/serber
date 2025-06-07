@@ -1,0 +1,72 @@
+DebugLevel: NONE
+
+# if enabled, you can break other graves with permission:
+# GraveStonesPlus.BreakOtherGraves
+BreakOtherGravesWithPermission: false
+
+# If true GraveStonesPlus.BreakOtherGraves will be given to all players by default
+# Requires BreakOtherGravesWithPermission enabled to work
+# Requires a restart
+GiveBreakOtherGravesPermission: false
+
+# List of worlds with graves disabled
+DisabledWorlds: []
+
+# Enable a glowing effect near grave
+GlowingEffectNearGrave: true
+# Distance for glowing effect
+GlowingEffectDistance: 30
+
+# Timelimit in minutes before grave is removed
+# -1 is disabled
+GraveTimeLimit: -1
+
+# Number of hours to store borken graves
+# This will allow restoring of graves that break before items can be obtained
+BrokenGraveTimeLimit: 96
+
+# Distance in which /gravestonesplus claimgrave will claim graves
+GraveClaimDistance: 10
+
+# Limit number of graves to can be created by a single person
+GraveLimit: 10
+
+# If true, armor stands are disabled
+# Use this if performance takes a hit with armor stands
+DisableArmorStands: false
+
+# Chance for items to drops
+# This perctange is caculated on every item
+PercentageDrops: 100
+
+# Keeps items with lore set here on player death
+# %player% works here
+# Set to '' to disable
+KeepItemsWithLore: ''
+
+# Use display entities rather than real blocks
+# 1.19.4+ only
+# The benefits is that the grave can't be destroyed by normal means, perfect for graves
+# Relatively new feature, could still have some bugs
+UseDisplayEntities: false
+
+# If true, a grave will be created if a player has an empty inventory
+# If false, no grave will be created
+CreateGraveForEmptyInventories: false
+
+# Whether or not to create daily backups. (Only the most recent ones get kept)
+CreateBackups: false
+
+Format:
+  Death: 'Your grave is at %x%, %y%, %z%'
+  GraveBroke: 'You broke your grave!'
+  GraveLimitBreak: 'Breaking oldest grave due to limit reached'
+  ItemsNotInCorrectSlot: "Some items didn't return to the correct slot"
+  NotYourGrave: 'Not your grave!'
+  ClickMessage: "%player%'s grave. Died at %time%. Reason: %reason%"
+  # Hologram message
+  Grave:
+    Top: '%player% died here!'
+    Middle: 'Died at %time%'
+    Bottom: 'Reason: %reason%'
+  

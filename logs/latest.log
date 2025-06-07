@@ -1,0 +1,195 @@
+[00:59:05] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Eclipse Adoptium Temurin-21.0.6+7) on Windows 11 10.0 (amd64)
+[00:59:05] [ServerMain/INFO]: [bootstrap] Loading Pufferfish 1.21.3-27-HEAD@04bc249 (2024-12-04T01:51:20Z) for Minecraft 1.21.3
+[00:59:07] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:59:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 22 plugins
+[00:59:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (22):
+ - Chunky (1.4.28), CoreProtect (22.4), Essentials (2.21.0), FastChunkPregenerator (2.0.9-SNAPSHOT), GSit (2.2.1), GraveStonesPlus (1.7.2), HeadsPlus (7.1.5), LuckPerms (5.4.131), NoPlugins (8.1), OnePlayerSleep (2.9-1.16.5), PlaceholderAPI (2.11.6), PlayTime (3.6), PlayerHeads (1.4), ServerListPlus (3.5.0), Sudo (1), TradeSystem (2.6.3), ViaBackwards (5.2.1), ViaRewind (4.0.4), ViaVersion (5.2.1), Vulcan (2.9.5), packetevents (2.7.0), voicechat (2.5.28)
+[00:59:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:59:28] [ServerMain/INFO]: Loaded 1337 recipes
+[00:59:29] [ServerMain/INFO]: Loaded 1448 advancements
+[00:59:31] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[00:59:31] [Server thread/INFO]: Loading properties
+[00:59:31] [Server thread/INFO]: This server is running Pufferfish version 1.21.3-27-HEAD@04bc249 (2024-12-04T01:51:20Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[00:59:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:59:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:59:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:59:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:59:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[00:59:39] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (int)
+[00:59:39] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 128 bits (float)
+[00:59:39] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[00:59:39] [Server thread/INFO]: Default game type: SURVIVAL
+[00:59:39] [Server thread/INFO]: Generating keypair
+[00:59:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:59:40] [Server thread/INFO]: Using default channel type
+[00:59:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[00:59:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[00:59:42] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:00:10] [Server thread/WARN]: Legacy plugin Sudo v1 does not specify an api-version.
+[01:00:10] [Server thread/WARN]: Legacy plugin PlayTime v3.6 does not specify an api-version.
+[01:00:10] [Server thread/WARN]: Legacy plugin PlayerHeads v1.4 does not specify an api-version.
+[01:00:10] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loading 1 libraries... please wait
+[01:00:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library C:\Users\Atwi\Documents\serber\libraries\org\openjdk\nashorn\nashorn-core\15.3\nashorn-core-15.3.jar
+[01:00:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library C:\Users\Atwi\Documents\serber\libraries\org\ow2\asm\asm\7.3.1\asm-7.3.1.jar
+[01:00:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library C:\Users\Atwi\Documents\serber\libraries\org\ow2\asm\asm-commons\7.3.1\asm-commons-7.3.1.jar
+[01:00:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library C:\Users\Atwi\Documents\serber\libraries\org\ow2\asm\asm-analysis\7.3.1\asm-analysis-7.3.1.jar
+[01:00:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library C:\Users\Atwi\Documents\serber\libraries\org\ow2\asm\asm-tree\7.3.1\asm-tree-7.3.1.jar
+[01:00:11] [Server thread/INFO]: [SpigotLibraryLoader] [GraveStonesPlus] Loaded library C:\Users\Atwi\Documents\serber\libraries\org\ow2\asm\asm-util\7.3.1\asm-util-7.3.1.jar
+[01:00:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[01:00:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[01:00:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:00:13] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:00:14] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:00:14] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:00:15] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[01:00:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[01:00:16] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.4
+[01:00:16] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[01:00:16] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.131
+[01:00:17] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.7.0
+[01:00:25] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.2.1
+[01:00:26] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0
+[01:00:26] [Server thread/INFO]: [Vulcan] Loading server plugin Vulcan v2.9.5
+[01:00:26] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.28
+[01:00:26] [Server thread/INFO]: [TradeSystem] Loading server plugin TradeSystem v2.6.3
+[01:00:26] [Server thread/INFO]: [Sudo] Loading server plugin Sudo v1
+[01:00:26] [Server thread/INFO]: [ServerListPlus] Loading server plugin ServerListPlus v3.5.0
+[01:00:26] [Server thread/INFO]: [PlayTime] Loading server plugin PlayTime v3.6
+[01:00:26] [Server thread/INFO]: [PlayerHeads] Loading server plugin PlayerHeads v1.4
+[01:00:26] [Server thread/INFO]: [OnePlayerSleep] Loading server plugin OnePlayerSleep v2.9-1.16.5
+[01:00:26] [Server thread/INFO]: [NoPlugins] Loading server plugin NoPlugins v8.1
+[01:00:26] [Server thread/INFO]: [HeadsPlus] Loading server plugin HeadsPlus v7.1.5
+[01:00:26] [Server thread/INFO]: [GraveStonesPlus] Loading server plugin GraveStonesPlus v1.7.2
+[01:00:26] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+[01:00:26] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.4
+[01:00:26] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[01:00:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:00:26] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.4
+[01:00:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.131
+[01:00:28] [Server thread/INFO]:         __    
+[01:00:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.131
+[01:00:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Pufferfish
+[01:00:28] [Server thread/INFO]: 
+[01:00:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:00:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:00:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:00:31] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:00:31] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 5776ms)
+[01:00:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:00:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:00:31] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[01:00:31] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[01:00:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:00:31] [Server thread/INFO]: Preparing level "world"
+[01:00:32] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:00:32] [Server thread/INFO]: Mob Spawn Range: 8
+[01:00:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:00:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:00:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01:00:32] [Server thread/INFO]: Entity Activation Range: An 16 / Mo 24 / Ra 48 / Mi 8 / Tiv true / Isa false
+[01:00:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[01:00:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[01:00:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01:00:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:00:32] [Server thread/INFO]: Max TNT Explosions: 100
+[01:00:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:00:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:00:32] [Server thread/INFO]: Experience Merge Radius: 4.0
+[01:00:32] [Server thread/INFO]: Item Merge Radius: 3.5
+[01:00:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01:00:32] [Server thread/INFO]: Simulation Distance: 4
+[01:00:32] [Server thread/INFO]: View Distance: 10
+[01:00:32] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.RuntimeException: Could not create world config for world
+	at io.papermc.paper.configuration.PaperConfigurations.createWorldConfig(PaperConfigurations.java:308) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at net.minecraft.server.level.ServerLevel.lambda$new$1(ServerLevel.java:600) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at net.minecraft.world.level.Level.<init>(Level.java:844) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at net.minecraft.server.level.ServerLevel.<init>(ServerLevel.java:600) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:719) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:531) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:328) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.spongepowered.configurate.loader.ParsingException: []: Unknown error occurred while loading
+	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:165) ~[configurate-core-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:63) ~[configurate-core-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.loader.ConfigurationLoader.load(ConfigurationLoader.java:56) ~[configurate-core-4.2.0-SNAPSHOT.jar:?]
+	at io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:231) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:209) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at io.papermc.paper.configuration.PaperConfigurations.createWorldConfig(PaperConfigurations.java:306) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	... 9 more
+Caused by: org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 32, column 6:
+         ambient:
+         ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 35, column 7:
+          axolotls:
+          ^
+
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:178) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.Yaml.loadFromReader(Yaml.java:493) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.internal.snakeyaml.Yaml.load(Yaml.java:446) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.YamlConfigurationLoader.loadInternal(YamlConfigurationLoader.java:183) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.yaml.YamlConfigurationLoader.loadInternal(YamlConfigurationLoader.java:47) ~[configurate-yaml-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:155) ~[configurate-core-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.loader.AbstractConfigurationLoader.load(AbstractConfigurationLoader.java:63) ~[configurate-core-4.2.0-SNAPSHOT.jar:?]
+	at org.spongepowered.configurate.loader.ConfigurationLoader.load(ConfigurationLoader.java:56) ~[configurate-core-4.2.0-SNAPSHOT.jar:?]
+	at io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:231) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at io.papermc.paper.configuration.Configurations.createWorldConfig(Configurations.java:209) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	at io.papermc.paper.configuration.PaperConfigurations.createWorldConfig(PaperConfigurations.java:306) ~[pufferfish-1.21.3.jar:1.21.3-27-04bc249]
+	... 9 more
+[01:00:33] [Server thread/ERROR]: This crash report has been saved to: C:\Users\Atwi\Documents\serber\crash-reports\crash-2025-05-29_01.00.33-server.txt
+[01:00:33] [Server thread/INFO]: Stopping server
+[01:00:33] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.131
+[01:00:33] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:00:33] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:00:35] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:00:35] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.4
+[01:00:35] [Server thread/INFO]: Saving players
+[01:00:35] [Server thread/INFO]: Saving worlds
+[01:00:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:00:35] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[01:00:35] [Server thread/INFO]: All I/O tasks to complete
+[01:00:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:00:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
